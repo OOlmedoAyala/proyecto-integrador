@@ -1,0 +1,30 @@
+.div{
+    width: 100%;
+    height: 6vh;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.5;
+}
+.input{
+    width: 20%;
+    height: 50%;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 0 0 0 1rem;
+    right: 0;
+}
+.btn{
+    width: 5vw;
+    height: 3vh;
+    border-radius: 0.3rem;
+    background-color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    width: 6vw;
+    height: 4vh;
+    transition: 0.4s;
+}
